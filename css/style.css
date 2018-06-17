@@ -1,0 +1,49 @@
+a:hover {
+  text-decoration: none;
+}
+
+.form_search {
+  width: calc(100% - 460px);
+}
+
+.input_search {
+  flex-grow: 1;
+}
+
+.goods-name {
+  max-height: 72px;
+  overflow-y: hidden;
+}
+
+.goods-description {
+  max-height: 260px;
+  overflow-y: scroll;
+}
+
+.category {
+  padding: 0;
+}
+
+.category .list-group {
+  width: 225px;
+  transform: translate(-40px);
+}
+
+.goods .card{
+  height: 400px;
+}
+
+.goods img {
+  max-height: 350px;
+}
+
+.goods .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+
+.logo {
+  width: 80px;
+}
